@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="56dp"
+        app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+            android:id="@+id/ll_snack"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/macarons_new_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:id="@+id/iv_snack"/>
+
+        <TextView
+                android:id="@+id/snack"
+                android:textColor="@color/black"
+                android:text="Snack"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+    <LinearLayout
+            android:id="@+id/ll_lauk"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/lauk_new_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:id="@+id/iv_aneka_lauk"/>
+
+        <TextView
+                android:id="@+id/aneka_lauk"
+                android:textColor="@color/black"
+                android:text="Aneka Lauk"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+    <LinearLayout
+            android:id="@+id/ll_frozen"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/frozen_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/iv_frozen"/>
+
+        <TextView
+                android:id="@+id/frozen_food"
+                android:textColor="@color/black"
+                android:text="Frozen Food"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+    <LinearLayout
+            android:id="@+id/ll_sambal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/saus_new_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/iv_sambal"/>
+
+        <TextView
+                android:id="@+id/sambal"
+                android:textColor="@color/black"
+                android:text="Sambal"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+    <LinearLayout
+            android:id="@+id/ll_minuman"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/minuman_new_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/iv_minuman"/>
+
+        <TextView
+                android:id="@+id/minuman"
+                android:textColor="@color/black"
+                android:text="Minuman"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+    <LinearLayout
+            android:id="@+id/ll_lain_lain"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@mipmap/rice_new_01"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/iv_lain_lain"/>
+
+        <TextView
+                android:id="@+id/lain_lain"
+                android:textColor="@color/black"
+                android:text="Lain Lain"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"/>
+    </LinearLayout>
+    <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#000000"
+            android:visibility="visible"/>
+
+
+</LinearLayout>
